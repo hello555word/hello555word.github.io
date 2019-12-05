@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.container{
+width:500px;
+/* height: 500px; */
+background:rgb(31, 128, 141);
+margin: 0 auto;
+border-radius: 10px;
+text-align: center;
+padding:10px;
+}
+.user-select{
+    
+    padding:10px ;
+    color: #fff;
+    
+
+}
+.calendar-title{
+  display: grid;
+  grid-template-columns:repeat(7,1fr);
+  
+
+}
+.calendar-content{
+    display:grid;
+    grid-template-columns:repeat(7,1fr);
+    grid-row-gap:10px;
+    margin:15px 0;
+}
+.calendar-content .today{
+    background:#fff;
+    color:#008c8c;
+    width:20px;
+    border-radius:50%;
+    margin: 0 auto;
+}
